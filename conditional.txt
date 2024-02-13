@@ -1,0 +1,78 @@
+Give the values of P(B) and P(A and B) in the following scenarios. You are welcome to calculate P(A|B) if you choose to do so:
+
+You work for a risk analysis insurer. You have read that this year, out of all drivers on the road, 5% have had accidents under the age of 25. You
+have also read that 10% of all drivers are under the age of 25. A new client approaches you and states that their age is 22. You want to
+calculate the chance that this driver has had an accident this year based on their age.
+
+Answer:
+-------
+
+Events are: 
+A: Driver has had an accident this year
+B: Driver is under the age of 25
+
+P(B) = 10% of drivers are under age of 25 which is 0.10
+P(A and B)  
+5% of drivers have had accident under the age of 25 and 10% of drivers are under the age of 25. 
+P(A and B) = P(A|B) * P(B) =0.05 * 0.10 = 0.005
+
+P(A|B) = P(A and B)       0.005
+		-----------   =  -------    =   0.05   
+			P(B)           0.10
+
+So, based on their age probability that the driver has had an accident this year is 5%
+
+Your friend told you that they would buy you lunch if you can flip a coin and have it land on heads twice. You flip it the first time, and it lands on
+heads. What are your chances now of it landing on heads again?
+
+Answer:
+-------
+
+Regardless of the first flip the chances of the coin landing on heads second time is still 50%.
+
+You were always told that knowing Maths helps you to achieve 80% in Computer Science. You read some statistics showing that 30% of all Computer Science graduates took Maths and achieved 80%. Overall, 60% of all Computer Science graduates took Maths. Considering you took Maths, what are your chances of achieving 80%?
+
+Answer:
+-------
+
+Events are:
+A: Achieving 80% in Computer Science
+B: Taking maths, 60% of all computer science graduates took maths
+
+P(B) = Taking Maths, 60% of all computer science graduates took Maths so this is 0.60
+P(A and B) = 30% of those who took Maths achieved 80% in computer science so this is 0.30
+
+
+P(A|B) = P(A and B)       0.30
+		-----------   =  -------    =   1/2
+			P(B)          0.60
+			
+			
+This is a mock study created using a total of 100 participants. The two orange areas show the total number of people who actually have COVID, and the two blue areas show the total number of people who don’t actually have COVID. The two darkly-coloured areas at the bottom show the people who tested
+positive for COVID. The two lightly-coloured areas show the people who tested negative for COVID.
+● Using this diagram, and information learned from the video, state the
+following:
+○ H: our hypothesis
+○ E: our evidence
+● Then, give the values for the following:
+○ P(H)
+○ P(E|H)
+○ P(E)
+○ P(H|E)
+	
+Answer
+------	
+
+H: Is our hypothesis which is that a person has Covid - 19
+E: The evidence is that a person has tested positive for Covid-19
+
+P(H): The probability that a person actually has Covid-19. This is the total number of people with (Covid-19) divided by total number of participants.
+which is P(H) = 63/100 = 0.63
+P(E|H): The probability that a person tests positive given that they actually have Covid-19. This is the total number of true positives divided by total number of people with Covid-19. P(E|H) = 63 / 63+7 = 63/70 = 0.90
+P(E): The probability that a person tests positive. This is the sum of true positives and false positives, divided by total number of participants
+P(E) =  63 + 1 /100 = 64/100 = 0.64
+P(H|E): The probability that a person actually has Covid-19 given that they test positive. This is calculated using Bayes' theorem.
+
+P(H|E) = P(E|H).P(H)
+        ------------ =   (0.90) * (0.63) / (0.64) = 0.891
+            P(E)		
